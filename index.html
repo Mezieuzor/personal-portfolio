@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Personal Portfolio</title>
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css-->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="" class="logo">portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Mezieuzor Amadike</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+
+        <p>
+          <strong>Developing</strong> innovative software solutions and a strong
+          background in creating visually appealing user interfaces and
+          intuitive experiences. strong communicator, excellent collaborator,
+          focused problem solver and team player.
+        </p>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/amadike-mezieuzor-3b82077b/"
+            target="_blank"
+            rel="noreferrer"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/Mezieuzor/"
+            target="_blank"
+            rel="noreferrer"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="https://twitter.com/home" target="_blank" rel="noreferrer"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+        </div>
+        <a
+          href="./images/AMADIKE.pdf"
+          download
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button class="btn" type="button">
+            <strong>Download CV</strong>
+            <div id="container-stars">
+              <div id="stars"></div>
+            </div>
+
+            <div id="glow">
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+          </button>
+        </a>
+      </div>
+      <div class="home-img">
+        <img src="./images /profile-phoo.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design-->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./images /profile-photo.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>
+          I am Mezieuzor Amadike and an experienced software engineer with 3+
+          years of expertise in developing innovative software solutions and a
+          strong background in creating visually appealing user interfaces and
+          intuitive experiences. Proficient in multiple programming languages
+          like: Html, Css, Javascript, Reactjs, Bootstrap, Jquery, Redux,
+          TypeScript.
+        </p>
+        <a href="#services" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- service section design -->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            We <strong>develope</strong> a unique and fully responsive web
+            application with quality functionalities and reusable components.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Graphic Design</h3>
+          <p>
+            Let <strong>us</strong> be your <strong>designer</strong>. we
+            design/deliver crystal Logo or trademarks for your brand that
+            uniquely identifies your company.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Content Management</h3>
+          <p>
+            Content management is a platform that monitors and involves fully on
+            content management, context creation and portfolio fixing which
+            includes products for brands, quick online promotions and
+            broadcasting.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!--portfolio section design-->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="./images /calculator.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Calculator</h4>
+            <p>
+              Developed a calculator with different functionality that adds,
+              multiplies, subtracts and divides. Also giving you an accurate
+              output of any figure.
+            </p>
+            <a
+              href="https://my-calculator-project.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./images /Todo-list.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Todo-App</h4>
+            <p>
+              Developed a todo-application that displays the listed tasks as a
+              reminder.
+            </p>
+            <a
+              href="https://todo-app-xi-liard.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Email Address" required />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" required />
+          <input type="text" placeholder="Email Subject" required />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <input
+          type="submit"
+          value="Send Message"
+          class="btn"
+          onclick="sendMail()"
+        />
+      </form>
+    </section>
+
+    <!--footer design-->
+    <footer class="footer">
+      <div class="footer-area">
+        <p>
+          Copyright &copy; 2023 by Mezieuzor C. Amadike | All Rights Reserved.
+        </p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- custom js -->
+    <script src="./javascript.js"></script>
+  </body>
+</html>
