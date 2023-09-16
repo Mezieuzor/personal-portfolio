@@ -98,10 +98,10 @@
         <h3>Frontend Developer</h3>
         <p>
           I am Mezieuzor Amadike and an experienced software engineer with 3+
-          years of expertise in developing innovative software solutions and a
+          years of experience in developing innovative software solutions and a
           strong background in creating visually appealing user interfaces and
           intuitive experiences. Proficient in multiple programming languages
-          like: Html, Css, Javascript, Reactjs, Bootstrap, Jquery, Redux,
+          includes: Html, Css, Javascript, Reactjs, Bootstrap, Jquery, Redux,
           TypeScript.
         </p>
         <a href="#services" class="btn">Read More</a>
@@ -194,29 +194,34 @@
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me!</span></h2>
 
-      <form action="#">
+      <form action="https://formspree.io/f/mknlzbel" method="POST">
         <div class="input-box">
-          <input type="text" placeholder="Full Name" required />
-          <input type="email" placeholder="Email Address" required />
+          <input type="text" name="Name" placeholder="Full Name" required />
+          <input
+            type="text"
+            name="Email"
+            placeholder="Email Address"
+            required
+          />
         </div>
         <div class="input-box">
-          <input type="number" placeholder="Mobile Number" required />
-          <input type="text" placeholder="Email Subject" required />
+          <input
+            type="number"
+            name="Number"
+            placeholder="Mobile Number"
+            required
+          />
+          <input type="text" name="text" placeholder="Email Subject" />
         </div>
         <textarea
-          name=""
+          name="Message"
           id=""
           cols="30"
           rows="10"
           placeholder="Your Message"
           required
         ></textarea>
-        <input
-          type="submit"
-          value="Send Message"
-          class="btn"
-          onclick="sendMail()"
-        />
+        <input type="submit" value="Send Message" class="btn" />
       </form>
     </section>
 
